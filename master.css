@@ -1,10 +1,19 @@
+@font-face {
+  font-family: 'CNR';
+  src: url('fonts/codeNewRoman.otf') format('opentype');
+}
+
 body {
   background: linear-gradient(to bottom, #0077cc, #ffffff);
   background-repeat:no-repeat;
   background-size:cover;
 }
 
-h1 {
+
+
+h1, h2 {
+    font-family: 'CNR', sans-serif;
     color: rgb(217, 255, 0);
     letter-spacing: 1;
+    text-align: center;
 }
