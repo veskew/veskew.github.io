@@ -1,4 +1,10 @@
+body {
+  background: linear-gradient(to bottom, #0077cc, #ffffff);
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
 h1 {
-    color: red;
-    justify-content: center;
+    color: rgb(217, 255, 0);
+    letter-spacing: 1;
 }
