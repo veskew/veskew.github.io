@@ -1,0 +1,17 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.center-wrapper {
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center;     /* vertical center */
+  height: 100vh;           /* full viewport height */
+}
+
+img {
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;     /* optional: keeps image proportions */
+}

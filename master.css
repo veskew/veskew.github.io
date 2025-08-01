@@ -4,15 +4,17 @@
 }
 
 body {
+  font-family: 'CNR', sans-serif;
   background: linear-gradient(to bottom, #0077cc, #ffffff);
   background-repeat:no-repeat;
   background-size:cover;
+  margin: 0;
+  min-height: 100vh;
 }
 
 
 
 h1, h2 {
-    font-family: 'CNR', sans-serif;
     color: rgb(217, 255, 0);
     letter-spacing: 1;
     text-align: center;
