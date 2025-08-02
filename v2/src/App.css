@@ -33,6 +33,31 @@
   color: #616100;
 }
 
+/* --- Tic-Tac-Toe Styles --- */
+
+.board-row {
+  display: flex; /* This is the key for alignment */
+  flex-direction: row;
+  justify-content: center;
+}
+
+.square {
+  background-color: #fbf861;
+  color: #610010;
+  border: 2px solid #282c34;
+  font-size: 5vh; /* Made font size responsive */
+  font-weight: bold;
+  
+  /* --- Fixed Sizing & Centering --- */
+  width: 10vh;      /* Set a fixed width */
+  height: 10vh;     /* Set a fixed height */
+  padding: 0;       /* Remove padding to make centering easier */
+  display: flex;      /* Use flexbox to center content */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
